@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rigoberto Tejada Freelancer</title>
+    <title>Rigoberto Tejada - Freelancer</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
     <header>
         <h1 class="titulo">Rigoberto Tejada - <span>Freelancer</span></h1>
@@ -28,7 +26,6 @@
     <section class="hero">
         <div class="contenido-hero">
             <h2>Diseño y Desarrollo web <span>Freelancer</span></h2>
-
             <div class="ubicacion">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88"
                 viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round"
@@ -39,16 +36,18 @@
             </svg>
             <p>Santiago, R.D</p>
             </div>
-
             <a class="boton" href="#">Contactar</a>
-        </div>
+        </div> <!-- Contenido-Hero-->
     
     </section>
 
-    <main>
+    <main class="contenedor sombra">
+
         <h2>Mis Servicios</h2>
-        <section>
+        <div class="servicios">
+        <section class="servicio">
             <h3>Diseño Web</h3>
+            <div class="iconos">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="88" height="88"
                 viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
                 stroke-linejoin="round">
@@ -59,6 +58,7 @@
                 <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
                 <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
             </svg>
+        </div>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
                 incidunt possimus, sapiente laborum animi est architecto
@@ -66,8 +66,9 @@
                 nemo eaque laudantium reprehenderit delectus pariatur.
             </p>
         </section>
-        <section>
+        <section class="servicio">
             <h3>Aplicaciones Web</h3>
+            <div class="iconos">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="88"
                 height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
                 stroke-linejoin="round">
@@ -88,6 +89,7 @@
                     d="M9 7c-3 0 -4 3 -4 5.5c0 3 2 7.5 4 7.5c1.088 -.046 1.679 -.5 3 -.5c1.312 0 1.5 .5 3 .5s4 -3 4 -5c-.028 -.01 -2.472 -.403 -2.5 -3c-.019 -2.17 2.416 -2.954 2.5 -3c-1.023 -1.492 -2.951 -1.963 -3.5 -2c-1.433 -.111 -2.83 1 -3.5 1c-.68 0 -1.9 -1 -3 -1z" />
                 <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
             </svg>
+        </div>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
                 corporis necessitatibus, ea facere vitae aut voluptates eveniet
@@ -95,9 +97,10 @@
                 aperiam doloremque, minus officiis culpa.
             </p>
         </section>
-
-        <section>
+    
+        <section class="servicio">
             <h3>E-Commerce</h3>
+            <div class="iconos">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="88"
                 height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
                 stroke-linejoin="round">
@@ -107,6 +110,7 @@
                 <line x1="7" y1="15" x2="7.01" y2="15" />
                 <line x1="11" y1="15" x2="13" y2="15" />
             </svg>
+        </div>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
                 dolores nihil pariatur iste, ea numquam temporibus hic architecto
@@ -114,10 +118,10 @@
                 minus!
             </p>
         </section>
+    </div>  <!--.Servicios-->
     </main>
     <section>
         <h2>Contacto</h2>
-
         <form>
             <fieldset>
                 <legend>Contactános llenando todos los campos</legend>
@@ -146,7 +150,7 @@
     </section>
 
     <footer>
-        <p>Todos los derechos reservados. Rigoberto Tejada Freelancer</p>
+        <p>Todos los derechos reservados. Rigoberto Tejada - Freelancer</p>
     </footer>
 </body>
 
